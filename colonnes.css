@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@450);
+
+:root{
+    box-sizing: border-box;
+    --jaune:#FAB637;
+    --rouge:#FF4848;
+    --orange:#CC6119;
+    --gris:#ECEFF3;
+    --noir:#232628;
+    --bleu:#6C98E1;
+    --blanc: #ffffff;
+}
+p{
+    font-family: Open Sans, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 2.5em;
+}
+/*handicap*/
+.accessibility{
+    position: absolute;
+    left: -15000px;
+}
+#MenuToggle {
+    display: none;
+}
+/*fin handicap*/
+header, footer, #mainfooter{
+    background-color: #232628;
+    color: #ffffff;
+}
+header{
+	height:100px ;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 15;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+header h1{
+    font-size: 4em;
+    font-family: montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--blanc);
+    margin-left: 10%;
+    text-align: center;
+}
+header h2{
+    font-size: 1.3em;
+    font-family: montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--orange);
+    margin-bottom: 0%;
+    margin-left: 0%;
+}
+.txt0{
+    font-size: 1.3em;
+    font-family: Open Sans, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-top: 0%;
+}
+.txt{
+    font-size: 1.5em;
+    color: var(--blanc);
+    font-family: Open Sans, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 0%;
+}
+.inconhead{
+    min-width: 2%;
+    min-height: 2%;
+    border: 0;
+}
+#logo{
+    min-width: 10%;
+    min-height: 10%;
+}
+/*fin header*/
+
+/*menu page accueil*/
+.banniere{
+	width: 100%;
+	height:calc(100vh - 100px) ;
+	background-image: url(/images/vehicule1bis.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.MainNavindex {
+    font-family: montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    opacity: 080%;
+    background-color: var(--blanc);
+    top: 00%;
+    list-style: none;
+    z-index: 10;
+    padding-top: 100px; 
+    position: absolute;
+    box-shadow: 0px 4px 15px black;
+}
+.MainNavindex ul{
+    font-size: 2em;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+.MainNavindex a{
+    text-decoration: none;
+    color: #232628;
+    text-align: right;
+    font-weight: bold;
+    padding: 0 20px;
+}
+.MainNavindex a:hover{
+    background-color: var(--orange);
+    color: var(--blanc);
+}
+.titre{
+    font-family: montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: var(--blanc);
+    background-color: var(--noir);
+    opacity: 1;
+    font-size: 5em;
+    width: 100%;
+    z-index: 10;
+    padding-left: 15%;
+    padding-top: 35px;
+    padding-bottom: 2%;
+}
+mark1{
+    color: var(--orange);
+}
+/*fin menu page accueil*/
+
+/*colonnes page accueil*/
+.flex{
+    display: flex;
+    padding: 5%;
+}
+.txtgras{
+    font-weight: bold;
+}
+h3{
+    font-size: 2em;
+    font-family: montserrat, Verdana, Geneva, Tahoma, sans-serif;
+}
+.chap1{
+    padding-left: 5%;
+}
+.chap2{
+    padding-right: 5%;
+}
+
+/*fin colonnes page accueil*/
